@@ -1,6 +1,16 @@
 -- We can do "Create Read Update Delete" operations to the data
 -- inside the tables.
 
+-- What is CRUD?
+-- CREATE --> lets us put data into tables (creating tables)
+-- READ   --> lets us Query into tables
+-- UPDATE --> change data already in a table
+-- DELETE --> remove data from the table
+
+-- DELETE is significant because SQL only knows tables, and every opertaion 'produces' tables
+-- It either 'produces' a table by modifying an existing one, or it returns a new temporatry table
+-- as your data set.
+
 -- How do we make tables? By doing CRUD on the database schema.
 -- The first SQL statement to learn is CREATE:
 
@@ -27,5 +37,5 @@ CREATE TABLE person (
 -- What I should see..
 -- run in terminal => sqlite3 ex1.db < ex1.sql
 -- It should exit and not show anything. To make sure it created a db use ls -l
-
+-- Do this exercise again a few more times.
 
