@@ -33,7 +33,6 @@ CREATE TABLE cars (
 
 
 CREATE TABLE my_car (
-  car_owned TEXT,
   car_owned TEXT
 )
 
